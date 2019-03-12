@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/main.cpp
+iostream
+-
+cmath
+-
+vector
+-
+queue
+-
+random
+-
+iomanip
+-
+set
+-
+string
+-
+limits
+-
+chrono
+-
+
