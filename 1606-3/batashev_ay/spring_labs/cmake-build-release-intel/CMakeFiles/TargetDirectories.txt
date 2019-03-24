@@ -1,0 +1,11 @@
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-release-intel/CMakeFiles/rebuild_cache.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-release-intel/CMakeFiles/edit_cache.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-release-intel/seq/CMakeFiles/rebuild_cache.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-release-intel/seq/CMakeFiles/edit_cache.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-release-intel/seq/CMakeFiles/seq.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-release-intel/omp/CMakeFiles/rebuild_cache.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-release-intel/omp/CMakeFiles/test_merge.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-release-intel/omp/CMakeFiles/omp3.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-release-intel/omp/CMakeFiles/edit_cache.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-release-intel/omp/CMakeFiles/omp2.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-release-intel/omp/CMakeFiles/omp.dir

@@ -1,3 +1,0 @@
-/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug/CMakeFiles/par_prog_lab.dir

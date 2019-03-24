@@ -1,0 +1,4 @@
+"/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.49/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/bin/icc -DCMAKE_CXX_COMPILER=/usr/local/bin/icpc -G "CodeBlocks - Unix Makefiles" /Users/aleksandrbatasev/CLionProjects/par_prog_lab
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel

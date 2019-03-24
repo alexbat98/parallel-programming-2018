@@ -1,0 +1,1 @@
+/usr/local/bin/icpc  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/omp.dir/merge.cpp.o CMakeFiles/omp.dir/main.cpp.o CMakeFiles/omp.dir/radix.cpp.o  -o omp /opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libiomp5.dylib /usr/lib/libpthread.dylib 

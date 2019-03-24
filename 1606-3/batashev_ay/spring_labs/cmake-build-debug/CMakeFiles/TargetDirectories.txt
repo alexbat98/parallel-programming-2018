@@ -1,0 +1,8 @@
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug/seq/CMakeFiles/rebuild_cache.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug/seq/CMakeFiles/edit_cache.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug/seq/CMakeFiles/seq.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug/omp/CMakeFiles/rebuild_cache.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug/omp/CMakeFiles/edit_cache.dir
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug/omp/CMakeFiles/omp.dir

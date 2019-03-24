@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/omp/merge.cpp
+cstdint
+-
+merge.h
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/omp/merge.h
+
+/Users/aleksandrbatasev/CLionProjects/par_prog_lab/omp/merge.h
+

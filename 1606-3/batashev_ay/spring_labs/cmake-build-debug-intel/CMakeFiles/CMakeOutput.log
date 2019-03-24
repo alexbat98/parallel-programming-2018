@@ -1,0 +1,825 @@
+The system is: Darwin - 18.2.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/icc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Intel, found in "/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/3.13.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/icpc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Intel, found in "/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81d92/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_81d92.dir/build.make CMakeFiles/cmTC_81d92.dir/build
+Building C object CMakeFiles/cmTC_81d92.dir/testCCompiler.c.o
+/usr/local/bin/icc    -o CMakeFiles/cmTC_81d92.dir/testCCompiler.c.o   -c /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_81d92
+"/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_81d92.dir/link.txt --verbose=1
+/usr/local/bin/icc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_81d92.dir/testCCompiler.c.o  -o cmTC_81d92 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8f47/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d8f47.dir/build.make CMakeFiles/cmTC_d8f47.dir/build
+Building C object CMakeFiles/cmTC_d8f47.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/icc    -o CMakeFiles/cmTC_d8f47.dir/CMakeCCompilerABI.c.o   -c "/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTC_d8f47
+"/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_d8f47.dir/link.txt --verbose=1
+/usr/local/bin/icc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d8f47.dir/CMakeCCompilerABI.c.o  -o cmTC_d8f47 
+icc version 19.0.0.117 (gcc version 4.9.0 compatibility)
+/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_d8f47.dir/CMakeCCompilerABI.c.diag -mGLOB_diag_use_message_catalog=FALSE -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=490 "-mGLOB_options_string=-Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v -o cmTC_d8f47" -mGLOB_position_independent_code -mGLOB_preemption_model=1 -mGLOB_no_compact_unwind=TRUE -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64 -mGLOB_as_output_backup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccFYWWPWas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d93 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/libiml_attr.dylib -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccslisp6EmSR -mIPOPT_mo_global_data "-mIPOPT_cmdline_link="-dynamic" "-arch" "x86_64" "-weak_reference_mismatches" "non-weak" "-macosx_version_min" "10.14.3" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk" "-no_compact_unwind" "-keep_dwarf_unwind" "-rpath" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib" "-o" "cmTC_d8f47" "-L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib" "-L/usr/lib" "-search_paths_first" "-headerpad_max_install_names" "-v" "CMakeFiles/cmTC_d8f47.dir/CMakeCCompilerABI.c.o" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a" "-weak-lcilkrts" "-lc++" "-lSystem" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/ipo_iccnDgJpe.o -mIPOPT_whole_archive_fixup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccwarch8U09o4 -mGLOB_linker=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -mGLOB_driver_tempfile_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icctempfileH2xrU6 -mGLOB_os_target=GLOB_OS_TARGET_MACH -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/ipo_iccnDgJpe.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_d8f47.dir/CMakeCCompilerABI.c.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccaliswNPMnJ -mIPOPT_generated_tempfiles=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccelisIXI9Hq -mIPOPT_embedded_object_base_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icceobj6m9Url
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld    -dynamic -arch x86_64 -weak_reference_mismatches non-weak -macosx_version_min 10.14.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -no_compact_unwind -keep_dwarf_unwind -rpath /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib -o cmTC_d8f47 -L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib -L/usr/lib CMakeFiles/cmTC_d8f47.dir/CMakeCCompilerABI.c.o -search_paths_first -headerpad_max_install_names -v /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a -weak-lcilkrts -lc++ -lSystem /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
+Library search paths:
+	/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d8f47/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d8f47.dir/build.make CMakeFiles/cmTC_d8f47.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_d8f47.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/bin/icc    -o CMakeFiles/cmTC_d8f47.dir/CMakeCCompilerABI.c.o   -c "/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_d8f47]
+  ignore line: ["/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_d8f47.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/icc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d8f47.dir/CMakeCCompilerABI.c.o  -o cmTC_d8f47 ]
+  ignore line: [icc version 19.0.0.117 (gcc version 4.9.0 compatibility)]
+  ignore line: [/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_d8f47.dir/CMakeCCompilerABI.c.diag -mGLOB_diag_use_message_catalog=FALSE -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=490 "-mGLOB_options_string=-Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v -o cmTC_d8f47" -mGLOB_position_independent_code -mGLOB_preemption_model=1 -mGLOB_no_compact_unwind=TRUE -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64 -mGLOB_as_output_backup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccFYWWPWas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d93 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/libiml_attr.dylib -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccslisp6EmSR -mIPOPT_mo_global_data "-mIPOPT_cmdline_link="-dynamic" "-arch" "x86_64" "-weak_reference_mismatches" "non-weak" "-macosx_version_min" "10.14.3" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk" "-no_compact_unwind" "-keep_dwarf_unwind" "-rpath" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib" "-o" "cmTC_d8f47" "-L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib" "-L/usr/lib" "-search_paths_first" "-headerpad_max_install_names" "-v" "CMakeFiles/cmTC_d8f47.dir/CMakeCCompilerABI.c.o" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a" "-weak-lcilkrts" "-lc++" "-lSystem" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/ipo_iccnDgJpe.o -mIPOPT_whole_archive_fixup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccwarch8U09o4 -mGLOB_linker=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -mGLOB_driver_tempfile_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icctempfileH2xrU6 -mGLOB_os_target=GLOB_OS_TARGET_MACH -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/ipo_iccnDgJpe.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_d8f47.dir/CMakeCCompilerABI.c.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccaliswNPMnJ -mIPOPT_generated_tempfiles=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccelisIXI9Hq -mIPOPT_embedded_object_base_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icceobj6m9Url]
+  link line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld    -dynamic -arch x86_64 -weak_reference_mismatches non-weak -macosx_version_min 10.14.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -no_compact_unwind -keep_dwarf_unwind -rpath /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib -o cmTC_d8f47 -L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib -L/usr/lib CMakeFiles/cmTC_d8f47.dir/CMakeCCompilerABI.c.o -search_paths_first -headerpad_max_install_names -v /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a -weak-lcilkrts -lc++ -lSystem /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.3] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-no_compact_unwind] ==> ignore
+    arg [-keep_dwarf_unwind] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d8f47] ==> ignore
+    arg [-L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib] ==> dir [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_d8f47.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a]
+    arg [-weak-lcilkrts] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a]
+  remove lib [System]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a;c++;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+  implicit dirs: [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib;/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7b36/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d7b36.dir/build.make CMakeFiles/cmTC_d7b36.dir/build
+Building C object CMakeFiles/cmTC_d7b36.dir/feature_tests.c.o
+/usr/local/bin/icc   -std=c11 -o CMakeFiles/cmTC_d7b36.dir/feature_tests.c.o   -c /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d7b36
+"/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_d7b36.dir/link.txt --verbose=1
+/usr/local/bin/icc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d7b36.dir/feature_tests.c.o  -o cmTC_d7b36 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2dbe/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f2dbe.dir/build.make CMakeFiles/cmTC_f2dbe.dir/build
+Building C object CMakeFiles/cmTC_f2dbe.dir/feature_tests.c.o
+/usr/local/bin/icc   -std=c99 -o CMakeFiles/cmTC_f2dbe.dir/feature_tests.c.o   -c /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f2dbe
+"/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_f2dbe.dir/link.txt --verbose=1
+/usr/local/bin/icc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f2dbe.dir/feature_tests.c.o  -o cmTC_f2dbe 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c89] compiler features compiled with the following output:
+Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3fa7a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3fa7a.dir/build.make CMakeFiles/cmTC_3fa7a.dir/build
+Building C object CMakeFiles/cmTC_3fa7a.dir/feature_tests.c.o
+/usr/local/bin/icc   -std=c89 -o CMakeFiles/cmTC_3fa7a.dir/feature_tests.c.o   -c /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3fa7a
+"/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_3fa7a.dir/link.txt --verbose=1
+/usr/local/bin/icc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3fa7a.dir/feature_tests.c.o  -o cmTC_3fa7a 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7dc8a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7dc8a.dir/build.make CMakeFiles/cmTC_7dc8a.dir/build
+Building CXX object CMakeFiles/cmTC_7dc8a.dir/testCXXCompiler.cxx.o
+/usr/local/bin/icpc     -o CMakeFiles/cmTC_7dc8a.dir/testCXXCompiler.cxx.o -c /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_7dc8a
+"/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_7dc8a.dir/link.txt --verbose=1
+/usr/local/bin/icpc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7dc8a.dir/testCXXCompiler.cxx.o  -o cmTC_7dc8a 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_644d8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_644d8.dir/build.make CMakeFiles/cmTC_644d8.dir/build
+Building CXX object CMakeFiles/cmTC_644d8.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/icpc     -o CMakeFiles/cmTC_644d8.dir/CMakeCXXCompilerABI.cpp.o -c "/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_644d8
+"/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_644d8.dir/link.txt --verbose=1
+/usr/local/bin/icpc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_644d8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_644d8 
+icpc version 19.0.0.117 (gcc version 4.9.0 compatibility)
+/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_644d8.dir/CMakeCXXCompilerABI.cpp.diag -mGLOB_diag_use_message_catalog=FALSE -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=490 "-mGLOB_options_string=-Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v -o cmTC_644d8" -mGLOB_position_independent_code -mGLOB_preemption_model=1 -mGLOB_no_compact_unwind=TRUE -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64 -mGLOB_as_output_backup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcOdCdA1as_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d90 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/libiml_attr.dylib -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcslisa3ViOG -mIPOPT_mo_global_data "-mIPOPT_cmdline_link="-dynamic" "-arch" "x86_64" "-weak_reference_mismatches" "non-weak" "-macosx_version_min" "10.14.3" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk" "-no_compact_unwind" "-keep_dwarf_unwind" "-rpath" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib" "-o" "cmTC_644d8" "-L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib" "-L/usr/lib" "-search_paths_first" "-headerpad_max_install_names" "-v" "CMakeFiles/cmTC_644d8.dir/CMakeCXXCompilerABI.cpp.o" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a" "-lc++" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a" "-weak-lcilkrts" "-lc++" "-lSystem" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/ipo_icpcuV8p9y.o -mIPOPT_whole_archive_fixup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcwarchpbFjEs -mGLOB_linker=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -mGLOB_driver_tempfile_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpctempfilejE8hBc -mGLOB_os_target=GLOB_OS_TARGET_MACH -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/ipo_icpcuV8p9y.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_644d8.dir/CMakeCXXCompilerABI.cpp.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcalisUt4smp -mIPOPT_generated_tempfiles=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcelisRFZDWi -mIPOPT_embedded_object_base_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpceobjJSiYut
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld    -dynamic -arch x86_64 -weak_reference_mismatches non-weak -macosx_version_min 10.14.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -no_compact_unwind -keep_dwarf_unwind -rpath /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib -o cmTC_644d8 -L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib -L/usr/lib CMakeFiles/cmTC_644d8.dir/CMakeCXXCompilerABI.cpp.o -search_paths_first -headerpad_max_install_names -v /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a -lc++ /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a -weak-lcilkrts -lc++ -lSystem /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
+Library search paths:
+	/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_644d8/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_644d8.dir/build.make CMakeFiles/cmTC_644d8.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_644d8.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/icpc     -o CMakeFiles/cmTC_644d8.dir/CMakeCXXCompilerABI.cpp.o -c "/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_644d8]
+  ignore line: ["/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_644d8.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/icpc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_644d8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_644d8 ]
+  ignore line: [icpc version 19.0.0.117 (gcc version 4.9.0 compatibility)]
+  ignore line: [/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_644d8.dir/CMakeCXXCompilerABI.cpp.diag -mGLOB_diag_use_message_catalog=FALSE -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=490 "-mGLOB_options_string=-Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v -o cmTC_644d8" -mGLOB_position_independent_code -mGLOB_preemption_model=1 -mGLOB_no_compact_unwind=TRUE -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64 -mGLOB_as_output_backup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcOdCdA1as_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d90 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/libiml_attr.dylib -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcslisa3ViOG -mIPOPT_mo_global_data "-mIPOPT_cmdline_link="-dynamic" "-arch" "x86_64" "-weak_reference_mismatches" "non-weak" "-macosx_version_min" "10.14.3" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk" "-no_compact_unwind" "-keep_dwarf_unwind" "-rpath" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib" "-o" "cmTC_644d8" "-L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib" "-L/usr/lib" "-search_paths_first" "-headerpad_max_install_names" "-v" "CMakeFiles/cmTC_644d8.dir/CMakeCXXCompilerABI.cpp.o" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a" "-lc++" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a" "-weak-lcilkrts" "-lc++" "-lSystem" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/ipo_icpcuV8p9y.o -mIPOPT_whole_archive_fixup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcwarchpbFjEs -mGLOB_linker=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -mGLOB_driver_tempfile_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpctempfilejE8hBc -mGLOB_os_target=GLOB_OS_TARGET_MACH -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/ipo_icpcuV8p9y.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_644d8.dir/CMakeCXXCompilerABI.cpp.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcalisUt4smp -mIPOPT_generated_tempfiles=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcelisRFZDWi -mIPOPT_embedded_object_base_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpceobjJSiYut]
+  link line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld    -dynamic -arch x86_64 -weak_reference_mismatches non-weak -macosx_version_min 10.14.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -no_compact_unwind -keep_dwarf_unwind -rpath /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib -o cmTC_644d8 -L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib -L/usr/lib CMakeFiles/cmTC_644d8.dir/CMakeCXXCompilerABI.cpp.o -search_paths_first -headerpad_max_install_names -v /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a -lc++ /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a -weak-lcilkrts -lc++ -lSystem /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.3] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-no_compact_unwind] ==> ignore
+    arg [-keep_dwarf_unwind] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_644d8] ==> ignore
+    arg [-L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib] ==> dir [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_644d8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a]
+    arg [-lc++] ==> lib [c++]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a]
+    arg [-weak-lcilkrts] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a]
+  remove lib [System]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a;c++;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a;c++;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+  implicit dirs: [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib;/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_130c7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_130c7.dir/build.make CMakeFiles/cmTC_130c7.dir/build
+Building CXX object CMakeFiles/cmTC_130c7.dir/feature_tests.cxx.o
+/usr/local/bin/icpc    -std=c++17 -o CMakeFiles/cmTC_130c7.dir/feature_tests.cxx.o -c /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_130c7
+"/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_130c7.dir/link.txt --verbose=1
+/usr/local/bin/icpc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_130c7.dir/feature_tests.cxx.o  -o cmTC_130c7 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab38a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ab38a.dir/build.make CMakeFiles/cmTC_ab38a.dir/build
+Building CXX object CMakeFiles/cmTC_ab38a.dir/feature_tests.cxx.o
+/usr/local/bin/icpc    -std=c++14 -o CMakeFiles/cmTC_ab38a.dir/feature_tests.cxx.o -c /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ab38a
+"/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_ab38a.dir/link.txt --verbose=1
+/usr/local/bin/icpc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ab38a.dir/feature_tests.cxx.o  -o cmTC_ab38a 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51974/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_51974.dir/build.make CMakeFiles/cmTC_51974.dir/build
+Building CXX object CMakeFiles/cmTC_51974.dir/feature_tests.cxx.o
+/usr/local/bin/icpc    -std=c++11 -o CMakeFiles/cmTC_51974.dir/feature_tests.cxx.o -c /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_51974
+"/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_51974.dir/link.txt --verbose=1
+/usr/local/bin/icpc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_51974.dir/feature_tests.cxx.o  -o cmTC_51974 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c402b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c402b.dir/build.make CMakeFiles/cmTC_c402b.dir/build
+Building CXX object CMakeFiles/cmTC_c402b.dir/feature_tests.cxx.o
+/usr/local/bin/icpc    -std=c++98 -o CMakeFiles/cmTC_c402b.dir/feature_tests.cxx.o -c /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c402b
+"/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_c402b.dir/link.txt --verbose=1
+/usr/local/bin/icpc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c402b.dir/feature_tests.cxx.o  -o cmTC_c402b 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:0cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b68b3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b68b3.dir/build.make CMakeFiles/cmTC_b68b3.dir/build
+Building C object CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o
+/usr/local/bin/icc   -qopenmp -v   -o CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o   -c /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+icc version 19.0.0.117 (gcc version 4.9.0 compatibility)
+/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/mcpcom    --target_efi2 --lang=c -_g -mP3OPT_inline_alloca -D__ICC=1900 -D__INTEL_COMPILER=1900 -D__INTEL_COMPILER_UPDATE=0 -D__BLOCKS__ -D__SIZE_WIDTH__=64 -D__PTRDIFF_TYPE__=long "-D__SIZE_TYPE__=unsigned long" -D__WCHAR_TYPE__=int -D__WINT_TYPE__=int "-D__INTMAX_TYPE__=long int" "-D__UINTMAX_TYPE__=long unsigned int" -D__LONG_MAX__=9223372036854775807L -D__QMSPP_ -D__OPTIMIZE__ -D__NO_MATH_INLINES -D__NO_STRING_INLINES -D__GNUC_GNU_INLINE__ -D__GNUC__=4 -D__GNUC_MINOR__=9 -D__GNUC_PATCHLEVEL__=0 -D__clang__=1 -D__clang_patchlevel__=0 -D__clang_minor__=0 -D__clang_major__=10 -D__clang_version__="10.0.0" -D__APPLE_CC__=5226 -D__ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__=1143 -D__LITTLE_ENDIAN__ -D__DYNAMIC__ "-D__private_extern__=__attribute__((visibility("hidden")))" -D__LP64__ -D_LP64 -D__GXX_ABI_VERSION=1002 -D__USER_LABEL_PREFIX__=_ -D__REGISTER_PREFIX__= -D__INTEL_RTTI__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ "-_Acpu(x86_64)" "-_Amachine(x86_64)" -D__INTEL_COMPILER_BUILD_DATE=20180804 -D__PIC__ -D__APPLE__ -D__MACH__ -D_OPENMP=201611 -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -D__SSE2__ -D__SSE2_MATH__ -D__SSE3__ -D__SSSE3__ -D__SSE__ -D__SSE_MATH__ -D__MMX__ -_k -_8 -_l --has_new_stdarg_support -_D -_a -_b --gnu_version=40900 -_W5 --gcc-extern-inline --clang_version=30900 --openmp --openmp_tasks --openmp_simd --multibyte_chars --blocks --clang_lib_extensions -D_LIBCPP_HAS_NO_VARIADICS -D_LIBCPP_HAS_NO_RVALUE_REFERENCES -mGLOB_diag_suppress_sys -I/opt/intel//compilers_and_libraries_2019.0.117/mac/pstl/include --array_section --simd --simd_func --clang_extensions -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.diag -mGLOB_diag_use_message_catalog=FALSE -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=490 "-mGLOB_options_string=-qopenmp -v -o CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o -c" -mGLOB_position_independent_code -mGLOB_preemption_model=1 -mGLOB_no_compact_unwind=TRUE -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64 -mGLOB_as_output_backup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccOBu2hGas_.s -mIPOPT_activate -mIPOPT_lite -mGLOB_instruction_tuning=0x0 -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d93 -mCG_bnl_movbe=T -mGLOB_extended_instructions=0x80 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mPAROPT_openmp=TRUE -mP2OPT_hpo_omp_simd_only=FALSE -mP2OPT_il0_array_sections=TRUE -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/libiml_attr.dylib -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_obj_output_file_name=CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o -mIPOPT_whole_archive_fixup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccwarchZW197V -mGLOB_linker=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -mGLOB_driver_tempfile_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icctempfilezYRz3n -mGLOB_os_target=GLOB_OS_TARGET_MACH -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_C -mP1OPT_source_file_name=/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -mP1OPT_full_source_file_name=/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/FindOpenMP/OpenMPTryFlag.c /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/intel//compilers_and_libraries_2019.0.117/mac/pstl/include
+ /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/include/intel64
+ /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/include/icc
+ /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include
+ /usr/local/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include
+End of search list.
+Linking C executable cmTC_b68b3
+"/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_b68b3.dir/link.txt --verbose=1
+/usr/local/bin/icc  -qopenmp -v -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o  -o cmTC_b68b3 -v -Wl,-v 
+icc version 19.0.0.117 (gcc version 4.9.0 compatibility)
+/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.diag -mGLOB_diag_use_message_catalog=FALSE -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=490 "-mGLOB_options_string=-qopenmp -v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o cmTC_b68b3 -v -Wl,-v" -mGLOB_position_independent_code -mGLOB_preemption_model=1 -mGLOB_no_compact_unwind=TRUE -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64 -mGLOB_as_output_backup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccZ9xFkIas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d93 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mPAROPT_openmp=TRUE -mP2OPT_hpo_omp_simd_only=FALSE -mP2OPT_il0_array_sections=TRUE -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/libiml_attr.dylib -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccslis0x6Yux -mIPOPT_mo_global_data "-mIPOPT_cmdline_link="-dynamic" "-arch" "x86_64" "-weak_reference_mismatches" "non-weak" "-macosx_version_min" "10.14.3" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk" "-no_compact_unwind" "-keep_dwarf_unwind" "-rpath" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib" "-o" "cmTC_b68b3" "-L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib" "-L/usr/lib" "-search_paths_first" "-headerpad_max_install_names" "CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o" "-v" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a" "-liomp5" "-weak-lcilkrts" "-lc++" "-lSystem" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a" "-lpthread" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/ipo_iccvwj0D0.o -mIPOPT_whole_archive_fixup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccwarchXrehGd -mGLOB_linker=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -mGLOB_driver_tempfile_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icctempfilelsC5a6 -mGLOB_os_target=GLOB_OS_TARGET_MACH -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/ipo_iccvwj0D0.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccalisdndvLh -mIPOPT_generated_tempfiles=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccelisXFdIhN -mIPOPT_embedded_object_base_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icceobjq2Daay
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld    -dynamic -arch x86_64 -weak_reference_mismatches non-weak -macosx_version_min 10.14.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -no_compact_unwind -keep_dwarf_unwind -rpath /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib -o cmTC_b68b3 -L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib -L/usr/lib CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o -search_paths_first -headerpad_max_install_names -v /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a -liomp5 -weak-lcilkrts -lc++ -lSystem /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a -lpthread /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
+Library search paths:
+	/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b68b3/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b68b3.dir/build.make CMakeFiles/cmTC_b68b3.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/local/bin/icc   -qopenmp -v   -o CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o   -c /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [icc version 19.0.0.117 (gcc version 4.9.0 compatibility)]
+  ignore line: [/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/mcpcom    --target_efi2 --lang=c -_g -mP3OPT_inline_alloca -D__ICC=1900 -D__INTEL_COMPILER=1900 -D__INTEL_COMPILER_UPDATE=0 -D__BLOCKS__ -D__SIZE_WIDTH__=64 -D__PTRDIFF_TYPE__=long "-D__SIZE_TYPE__=unsigned long" -D__WCHAR_TYPE__=int -D__WINT_TYPE__=int "-D__INTMAX_TYPE__=long int" "-D__UINTMAX_TYPE__=long unsigned int" -D__LONG_MAX__=9223372036854775807L -D__QMSPP_ -D__OPTIMIZE__ -D__NO_MATH_INLINES -D__NO_STRING_INLINES -D__GNUC_GNU_INLINE__ -D__GNUC__=4 -D__GNUC_MINOR__=9 -D__GNUC_PATCHLEVEL__=0 -D__clang__=1 -D__clang_patchlevel__=0 -D__clang_minor__=0 -D__clang_major__=10 -D__clang_version__="10.0.0" -D__APPLE_CC__=5226 -D__ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__=1143 -D__LITTLE_ENDIAN__ -D__DYNAMIC__ "-D__private_extern__=__attribute__((visibility("hidden")))" -D__LP64__ -D_LP64 -D__GXX_ABI_VERSION=1002 -D__USER_LABEL_PREFIX__=_ -D__REGISTER_PREFIX__= -D__INTEL_RTTI__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ "-_Acpu(x86_64)" "-_Amachine(x86_64)" -D__INTEL_COMPILER_BUILD_DATE=20180804 -D__PIC__ -D__APPLE__ -D__MACH__ -D_OPENMP=201611 -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -D__SSE2__ -D__SSE2_MATH__ -D__SSE3__ -D__SSSE3__ -D__SSE__ -D__SSE_MATH__ -D__MMX__ -_k -_8 -_l --has_new_stdarg_support -_D -_a -_b --gnu_version=40900 -_W5 --gcc-extern-inline --clang_version=30900 --openmp --openmp_tasks --openmp_simd --multibyte_chars --blocks --clang_lib_extensions -D_LIBCPP_HAS_NO_VARIADICS -D_LIBCPP_HAS_NO_RVALUE_REFERENCES -mGLOB_diag_suppress_sys -I/opt/intel//compilers_and_libraries_2019.0.117/mac/pstl/include --array_section --simd --simd_func --clang_extensions -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.diag -mGLOB_diag_use_message_catalog=FALSE -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=490 "-mGLOB_options_string=-qopenmp -v -o CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o -c" -mGLOB_position_independent_code -mGLOB_preemption_model=1 -mGLOB_no_compact_unwind=TRUE -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64 -mGLOB_as_output_backup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccOBu2hGas_.s -mIPOPT_activate -mIPOPT_lite -mGLOB_instruction_tuning=0x0 -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d93 -mCG_bnl_movbe=T -mGLOB_extended_instructions=0x80 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mPAROPT_openmp=TRUE -mP2OPT_hpo_omp_simd_only=FALSE -mP2OPT_il0_array_sections=TRUE -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/libiml_attr.dylib -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_obj_output_file_name=CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o -mIPOPT_whole_archive_fixup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccwarchZW197V -mGLOB_linker=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -mGLOB_driver_tempfile_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icctempfilezYRz3n -mGLOB_os_target=GLOB_OS_TARGET_MACH -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_C -mP1OPT_source_file_name=/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -mP1OPT_full_source_file_name=/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/FindOpenMP/OpenMPTryFlag.c /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/intel//compilers_and_libraries_2019.0.117/mac/pstl/include]
+  ignore line: [ /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/include/intel64]
+  ignore line: [ /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/include/icc]
+  ignore line: [ /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_b68b3]
+  ignore line: ["/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_b68b3.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/icc  -qopenmp -v -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o  -o cmTC_b68b3 -v -Wl,-v ]
+  ignore line: [icc version 19.0.0.117 (gcc version 4.9.0 compatibility)]
+  ignore line: [/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.diag -mGLOB_diag_use_message_catalog=FALSE -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=490 "-mGLOB_options_string=-qopenmp -v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o cmTC_b68b3 -v -Wl,-v" -mGLOB_position_independent_code -mGLOB_preemption_model=1 -mGLOB_no_compact_unwind=TRUE -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64 -mGLOB_as_output_backup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccZ9xFkIas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d93 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mPAROPT_openmp=TRUE -mP2OPT_hpo_omp_simd_only=FALSE -mP2OPT_il0_array_sections=TRUE -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/libiml_attr.dylib -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccslis0x6Yux -mIPOPT_mo_global_data "-mIPOPT_cmdline_link="-dynamic" "-arch" "x86_64" "-weak_reference_mismatches" "non-weak" "-macosx_version_min" "10.14.3" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk" "-no_compact_unwind" "-keep_dwarf_unwind" "-rpath" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib" "-o" "cmTC_b68b3" "-L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib" "-L/usr/lib" "-search_paths_first" "-headerpad_max_install_names" "CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o" "-v" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a" "-liomp5" "-weak-lcilkrts" "-lc++" "-lSystem" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a" "-lpthread" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/ipo_iccvwj0D0.o -mIPOPT_whole_archive_fixup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccwarchXrehGd -mGLOB_linker=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -mGLOB_driver_tempfile_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icctempfilelsC5a6 -mGLOB_os_target=GLOB_OS_TARGET_MACH -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/ipo_iccvwj0D0.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccalisdndvLh -mIPOPT_generated_tempfiles=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/iccelisXFdIhN -mIPOPT_embedded_object_base_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icceobjq2Daay]
+  link line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld    -dynamic -arch x86_64 -weak_reference_mismatches non-weak -macosx_version_min 10.14.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -no_compact_unwind -keep_dwarf_unwind -rpath /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib -o cmTC_b68b3 -L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib -L/usr/lib CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o -search_paths_first -headerpad_max_install_names -v /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a -liomp5 -weak-lcilkrts -lc++ -lSystem /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a -lpthread /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.3] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-no_compact_unwind] ==> ignore
+    arg [-keep_dwarf_unwind] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b68b3] ==> ignore
+    arg [-L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib] ==> dir [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_b68b3.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a]
+    arg [-liomp5] ==> lib [iomp5]
+    arg [-weak-lcilkrts] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a]
+    arg [-lpthread] ==> lib [pthread]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a]
+  remove lib [System]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a;iomp5;c++;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a;pthread;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+  implicit dirs: [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib;/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2fc13/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2fc13.dir/build.make CMakeFiles/cmTC_2fc13.dir/build
+Building CXX object CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o
+/usr/local/bin/icpc    -qopenmp -v   -std=gnu++17 -o CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o -c /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+icpc version 19.0.0.117 (gcc version 4.9.0 compatibility)
+/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/mcpcom    --target_efi2 --lang=c++ -_g -mP3OPT_inline_alloca -D__ICC=1900 -D__INTEL_COMPILER=1900 -D__INTEL_COMPILER_UPDATE=0 -D__BLOCKS__ -D__SIZE_WIDTH__=64 -D__PTRDIFF_TYPE__=long "-D__SIZE_TYPE__=unsigned long" -D__WCHAR_TYPE__=int -D__WINT_TYPE__=int "-D__INTMAX_TYPE__=long int" "-D__UINTMAX_TYPE__=long unsigned int" -D__INTEL_CXX11_MODE__ -D__LONG_MAX__=9223372036854775807L -D__QMSPP_ -D__OPTIMIZE__ -D__NO_MATH_INLINES -D__NO_STRING_INLINES -D__GNUC_GNU_INLINE__ -D__GNUG__=4 -D__GNUC__=4 -D__GNUC_MINOR__=9 -D__GNUC_PATCHLEVEL__=0 -D__clang__=1 -D__clang_patchlevel__=0 -D__clang_minor__=0 -D__clang_major__=10 -D__clang_version__="10.0.0" -D__APPLE_CC__=5226 -D__ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__=1143 -D__LITTLE_ENDIAN__ -D__DYNAMIC__ -D__private_extern__=extern -D__LP64__ -D_LP64 -D_GNU_SOURCE=1 -D__DEPRECATED=1 -D__GXX_WEAK__=1 -D__GXX_ABI_VERSION=1002 -D__USER_LABEL_PREFIX__=_ -D__REGISTER_PREFIX__= -D__INTEL_RTTI__ -D__EXCEPTIONS=1 -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ "-_Acpu(x86_64)" "-_Amachine(x86_64)" -D__INTEL_COMPILER_BUILD_DATE=20180804 -D__PIC__ -D__APPLE__ -D__MACH__ -D_OPENMP=201611 -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -D__SSE2__ -D__SSE2_MATH__ -D__SSE3__ -D__SSSE3__ -D__SSE__ -D__SSE_MATH__ -D__MMX__ -_k -_8 -_l --has_new_stdarg_support -_D -_a -_b --gnu_version=40900 -_W5 --gcc-extern-inline --clang_version=30900 -p --bool -tused -x --openmp --openmp_tasks --openmp_simd --c++17 --gnu_std --multibyte_chars --blocks --clang_lib_extensions -mGLOB_diag_suppress_sys -I/opt/intel//compilers_and_libraries_2019.0.117/mac/pstl/include --array_section --simd --simd_func --clang_extensions --bool -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.diag -mGLOB_diag_use_message_catalog=FALSE -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=490 "-mGLOB_options_string=-qopenmp -v -std=gnu++17 -o CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o -c" -mGLOB_position_independent_code -mGLOB_preemption_model=1 -mGLOB_no_compact_unwind=TRUE -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64 -mGLOB_as_output_backup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcCvH28kas_.s -mIPOPT_activate -mIPOPT_lite -mGLOB_instruction_tuning=0x0 -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d90 -mCG_bnl_movbe=T -mGLOB_extended_instructions=0x80 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mPAROPT_openmp=TRUE -mP2OPT_hpo_omp_simd_only=FALSE -mP2OPT_il0_array_sections=TRUE -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/libiml_attr.dylib -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_obj_output_file_name=CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o -mIPOPT_whole_archive_fixup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcwarchFiUoOu -mGLOB_linker=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -mGLOB_driver_tempfile_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpctempfilejBpuqf -mGLOB_os_target=GLOB_OS_TARGET_MACH -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_C_PLUS_PLUS -mP1OPT_source_file_name=/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -mP1OPT_full_source_file_name=/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -mGLOB_eh_linux /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/intel//compilers_and_libraries_2019.0.117/mac/pstl/include
+ /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/include/intel64
+ /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/include/icc
+ /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include
+ /usr/local/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include
+End of search list.
+Linking CXX executable cmTC_2fc13
+"/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_2fc13.dir/link.txt --verbose=1
+/usr/local/bin/icpc   -qopenmp -v -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o  -o cmTC_2fc13 -v -Wl,-v 
+icpc version 19.0.0.117 (gcc version 4.9.0 compatibility)
+/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.diag -mGLOB_diag_use_message_catalog=FALSE -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=490 "-mGLOB_options_string=-qopenmp -v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o cmTC_2fc13 -v -Wl,-v" -mGLOB_position_independent_code -mGLOB_preemption_model=1 -mGLOB_no_compact_unwind=TRUE -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64 -mGLOB_as_output_backup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcYmlAsJas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d90 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mPAROPT_openmp=TRUE -mP2OPT_hpo_omp_simd_only=FALSE -mP2OPT_il0_array_sections=TRUE -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/libiml_attr.dylib -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcslisOasuyv -mIPOPT_mo_global_data "-mIPOPT_cmdline_link="-dynamic" "-arch" "x86_64" "-weak_reference_mismatches" "non-weak" "-macosx_version_min" "10.14.3" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk" "-no_compact_unwind" "-keep_dwarf_unwind" "-rpath" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib" "-o" "cmTC_2fc13" "-L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib" "-L/usr/lib" "-search_paths_first" "-headerpad_max_install_names" "CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o" "-v" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a" "-lc++" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a" "-liomp5" "-weak-lcilkrts" "-lc++" "-lSystem" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a" "-lpthread" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/ipo_icpcQo1MJA.o -mIPOPT_whole_archive_fixup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcwarchTdIcQS -mGLOB_linker=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -mGLOB_driver_tempfile_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpctempfileitebBZ -mGLOB_os_target=GLOB_OS_TARGET_MACH -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/ipo_icpcQo1MJA.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcalisdEEFqU -mIPOPT_generated_tempfiles=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpceliswlKHtX -mIPOPT_embedded_object_base_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpceobjbfdGQa
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld    -dynamic -arch x86_64 -weak_reference_mismatches non-weak -macosx_version_min 10.14.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -no_compact_unwind -keep_dwarf_unwind -rpath /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib -o cmTC_2fc13 -L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib -L/usr/lib CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o -search_paths_first -headerpad_max_install_names -v /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a -lc++ /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a -liomp5 -weak-lcilkrts -lc++ -lSystem /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a -lpthread /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
+Library search paths:
+	/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2fc13/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2fc13.dir/build.make CMakeFiles/cmTC_2fc13.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/local/bin/icpc    -qopenmp -v   -std=gnu++17 -o CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o -c /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [icpc version 19.0.0.117 (gcc version 4.9.0 compatibility)]
+  ignore line: [/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/mcpcom    --target_efi2 --lang=c++ -_g -mP3OPT_inline_alloca -D__ICC=1900 -D__INTEL_COMPILER=1900 -D__INTEL_COMPILER_UPDATE=0 -D__BLOCKS__ -D__SIZE_WIDTH__=64 -D__PTRDIFF_TYPE__=long "-D__SIZE_TYPE__=unsigned long" -D__WCHAR_TYPE__=int -D__WINT_TYPE__=int "-D__INTMAX_TYPE__=long int" "-D__UINTMAX_TYPE__=long unsigned int" -D__INTEL_CXX11_MODE__ -D__LONG_MAX__=9223372036854775807L -D__QMSPP_ -D__OPTIMIZE__ -D__NO_MATH_INLINES -D__NO_STRING_INLINES -D__GNUC_GNU_INLINE__ -D__GNUG__=4 -D__GNUC__=4 -D__GNUC_MINOR__=9 -D__GNUC_PATCHLEVEL__=0 -D__clang__=1 -D__clang_patchlevel__=0 -D__clang_minor__=0 -D__clang_major__=10 -D__clang_version__="10.0.0" -D__APPLE_CC__=5226 -D__ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__=1143 -D__LITTLE_ENDIAN__ -D__DYNAMIC__ -D__private_extern__=extern -D__LP64__ -D_LP64 -D_GNU_SOURCE=1 -D__DEPRECATED=1 -D__GXX_WEAK__=1 -D__GXX_ABI_VERSION=1002 -D__USER_LABEL_PREFIX__=_ -D__REGISTER_PREFIX__= -D__INTEL_RTTI__ -D__EXCEPTIONS=1 -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ "-_Acpu(x86_64)" "-_Amachine(x86_64)" -D__INTEL_COMPILER_BUILD_DATE=20180804 -D__PIC__ -D__APPLE__ -D__MACH__ -D_OPENMP=201611 -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -D__SSE2__ -D__SSE2_MATH__ -D__SSE3__ -D__SSSE3__ -D__SSE__ -D__SSE_MATH__ -D__MMX__ -_k -_8 -_l --has_new_stdarg_support -_D -_a -_b --gnu_version=40900 -_W5 --gcc-extern-inline --clang_version=30900 -p --bool -tused -x --openmp --openmp_tasks --openmp_simd --c++17 --gnu_std --multibyte_chars --blocks --clang_lib_extensions -mGLOB_diag_suppress_sys -I/opt/intel//compilers_and_libraries_2019.0.117/mac/pstl/include --array_section --simd --simd_func --clang_extensions --bool -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.diag -mGLOB_diag_use_message_catalog=FALSE -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=490 "-mGLOB_options_string=-qopenmp -v -std=gnu++17 -o CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o -c" -mGLOB_position_independent_code -mGLOB_preemption_model=1 -mGLOB_no_compact_unwind=TRUE -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64 -mGLOB_as_output_backup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcCvH28kas_.s -mIPOPT_activate -mIPOPT_lite -mGLOB_instruction_tuning=0x0 -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d90 -mCG_bnl_movbe=T -mGLOB_extended_instructions=0x80 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mPAROPT_openmp=TRUE -mP2OPT_hpo_omp_simd_only=FALSE -mP2OPT_il0_array_sections=TRUE -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/libiml_attr.dylib -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_obj_output_file_name=CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o -mIPOPT_whole_archive_fixup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcwarchFiUoOu -mGLOB_linker=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -mGLOB_driver_tempfile_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpctempfilejBpuqf -mGLOB_os_target=GLOB_OS_TARGET_MACH -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_C_PLUS_PLUS -mP1OPT_source_file_name=/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -mP1OPT_full_source_file_name=/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -mGLOB_eh_linux /Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug-intel/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/intel//compilers_and_libraries_2019.0.117/mac/pstl/include]
+  ignore line: [ /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/include/intel64]
+  ignore line: [ /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/include/icc]
+  ignore line: [ /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_2fc13]
+  ignore line: ["/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.6/CLion 2019.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_2fc13.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/icpc   -qopenmp -v -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o  -o cmTC_2fc13 -v -Wl,-v ]
+  ignore line: [icpc version 19.0.0.117 (gcc version 4.9.0 compatibility)]
+  ignore line: [/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.diag -mGLOB_diag_use_message_catalog=FALSE -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=490 "-mGLOB_options_string=-qopenmp -v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o cmTC_2fc13 -v -Wl,-v" -mGLOB_position_independent_code -mGLOB_preemption_model=1 -mGLOB_no_compact_unwind=TRUE -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64 -mGLOB_as_output_backup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcYmlAsJas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d90 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mPAROPT_openmp=TRUE -mP2OPT_hpo_omp_simd_only=FALSE -mP2OPT_il0_array_sections=TRUE -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/opt/intel//compilers_and_libraries_2019.0.117/mac/bin/intel64/libiml_attr.dylib -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcslisOasuyv -mIPOPT_mo_global_data "-mIPOPT_cmdline_link="-dynamic" "-arch" "x86_64" "-weak_reference_mismatches" "non-weak" "-macosx_version_min" "10.14.3" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk" "-no_compact_unwind" "-keep_dwarf_unwind" "-rpath" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib" "-o" "cmTC_2fc13" "-L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib" "-L/usr/lib" "-search_paths_first" "-headerpad_max_install_names" "CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o" "-v" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a" "-lc++" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a" "-liomp5" "-weak-lcilkrts" "-lc++" "-lSystem" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a" "-lpthread" "/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/ipo_icpcQo1MJA.o -mIPOPT_whole_archive_fixup_file_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcwarchTdIcQS -mGLOB_linker=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -mGLOB_driver_tempfile_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpctempfileitebBZ -mGLOB_os_target=GLOB_OS_TARGET_MACH -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/ipo_icpcQo1MJA.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpcalisdEEFqU -mIPOPT_generated_tempfiles=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpceliswlKHtX -mIPOPT_embedded_object_base_name=/var/folders/ch/91t9p1tn643789zj17n600yr0000gn/T/icpceobjbfdGQa]
+  link line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld    -dynamic -arch x86_64 -weak_reference_mismatches non-weak -macosx_version_min 10.14.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -no_compact_unwind -keep_dwarf_unwind -rpath /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib -o cmTC_2fc13 -L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib -L/usr/lib CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o -search_paths_first -headerpad_max_install_names -v /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a -lc++ /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a -liomp5 -weak-lcilkrts -lc++ -lSystem /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a -lpthread /opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.3] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-no_compact_unwind] ==> ignore
+    arg [-keep_dwarf_unwind] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2fc13] ==> ignore
+    arg [-L/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib] ==> dir [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_2fc13.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a]
+    arg [-lc++] ==> lib [c++]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a]
+    arg [-liomp5] ==> lib [iomp5]
+    arg [-weak-lcilkrts] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a]
+    arg [-lpthread] ==> lib [pthread]
+    arg [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a] ==> lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a]
+  remove lib [System]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a]
+  collapse lib [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/opt/intel//compilers_and_libraries_2019.0.117/mac/compiler/lib] ==> [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libimf.a;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libirng.a;c++;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libipgo.a;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libdecimal.a;iomp5;c++;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libirc.a;pthread;/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib/libsvml.a]
+  implicit dirs: [/opt/intel/compilers_and_libraries_2019.0.117/mac/compiler/lib;/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+

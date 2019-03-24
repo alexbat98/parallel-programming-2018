@@ -1,0 +1,11 @@
+"/Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.49/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/aleksandrbatasev/CLionProjects/par_prog_lab
+CMake Error at /Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.49/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
+  Could NOT find OpenMP_C (missing: OpenMP_C_FLAGS OpenMP_C_LIB_NAMES)
+Call Stack (most recent call first):
+  /Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.49/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESSAGE)
+  /Users/aleksandrbatasev/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.6183.49/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindOpenMP.cmake:473 (find_package_handle_standard_args)
+  omp/CMakeLists.txt:6 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/aleksandrbatasev/CLionProjects/par_prog_lab/cmake-build-debug/CMakeFiles/CMakeOutput.log".
